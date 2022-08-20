@@ -8,7 +8,8 @@
     "installer": {
         "args": [
             "/S",
-            "/D=$dir\\Gpg4win"
+            "/D=$dir\\Gpg4win",
+            "/C=$bucketsdir\\files\\gpg4win\\gpg4win-scoop-install.ini"
         ]
     },
     "uninstaller": {
