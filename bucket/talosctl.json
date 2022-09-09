@@ -5,13 +5,13 @@
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/siderolabs/talos/releases/download/v$version/talosctl-windows-amd64.exe",
+            "url": "https://github.com/siderolabs/talos/releases/download/v1.2.1/talosctl-windows-amd64.exe",
             "hash": "a1cc6f1db67aa83ca394f3dcb75b2bfb2ed1d93a31e6241e6cac5d5c364a3bd7"
         }
     },
-    "bin": "flux.exe",
+    "bin": "talosctl.exe",
     "checkver": {
-        "github": "https://github.com/fluxcd/flux2"
+        "github": "https://github.com/siderolabs/talos"
     },
     "autoupdate": {
         "architecture": {
