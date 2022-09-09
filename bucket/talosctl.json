@@ -9,7 +9,7 @@
             "hash": "a0996eb7503640dbe9411dc52a197f8c361bdbc9a86db073614b911f29bac29e"
         }
     },
-    "bin": "talosctl.exe",
+    "bin": [ [ "talosctl-windows-amd64.exe", "talosctl" ] ],
     "checkver": {
         "github": "https://github.com/siderolabs/talos"
     },
