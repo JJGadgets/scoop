@@ -1,0 +1,27 @@
+{
+    "version": "1.2.1",
+    "description": "talosctl is a CLI tool which interfaces with the Talos API in an easy manner. Talos Linux is a modern Linux distribution built for Kubernetes.",
+    "homepage": "https://www.talos.dev",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/siderolabs/talos/releases/download/v$version/talosctl-windows-amd64.exe",
+            "hash": "a1cc6f1db67aa83ca394f3dcb75b2bfb2ed1d93a31e6241e6cac5d5c364a3bd7"
+        }
+    },
+    "bin": "flux.exe",
+    "checkver": {
+        "github": "https://github.com/fluxcd/flux2"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/siderolabs/talos/releases/download/v$version/talosctl-windows-amd64.exe"
+                
+            }
+        },
+        "hash": {
+            "url": "$baseurl/sha256sum.txt"
+        }
+    }
+}
